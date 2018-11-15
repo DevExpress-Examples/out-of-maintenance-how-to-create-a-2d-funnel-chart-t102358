@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/FunnelChart/MainWindow.xaml)**
+<!-- default file list end -->
 # How to create a 2D Funnel chart
 
 
