@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FunnelChart {
     /// <summary>
@@ -20,6 +8,26 @@ namespace FunnelChart {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+        }
+    }
+    public class ChartViewModel {
+        public ObservableCollection<DataPoint> Data { get; private set; }
+        public ChartViewModel() {
+            Data = new ObservableCollection<DataPoint> {
+                        new DataPoint ("Visited a Website", 9152),
+                        new DataPoint ("Downloaded a Trial", 6870),
+                        new DataPoint ("Contacted to Support", 5121),
+                        new DataPoint ("Subscribed", 2224),
+                        new DataPoint ("Renewed", 1670)
+            };
+        }
+        public class DataPoint {
+            public string Argument { get; private set; }
+            public double Value { get; private set; }
+            public DataPoint(string argument, double value) {
+                Argument = argument;
+                Value = value;
+            }
         }
     }
 }
