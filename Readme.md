@@ -1,8 +1,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/FunnelChart/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/FunnelChart/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/FunnelChart/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/FunnelChart/MainWindow.xaml.vb))
 
 <!-- default file list end -->
 
