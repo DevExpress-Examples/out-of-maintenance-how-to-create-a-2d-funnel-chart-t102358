@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FunnelChart", "FunnelChart\FunnelChart.vbproj", "{BF5B7459-5515-4C86-BA60-311C02783097}"
+# Visual Studio 16
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FunnelChart", "FunnelChart\FunnelChart.Net5.vbproj", "{BF5B7459-5515-4C86-BA60-311C02783097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
